@@ -1,0 +1,8 @@
+prefix=/home/jovanhermawan/Desktop/new_workspace/devel
+
+Name: node_basics_p
+Description: Description of node_basics_p
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
