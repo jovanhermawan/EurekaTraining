@@ -1,8 +1,0 @@
-prefix=/home/jovanhermawan/Desktop/new_workspace/devel
-
-Name: package1
-Description: Description of package1
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

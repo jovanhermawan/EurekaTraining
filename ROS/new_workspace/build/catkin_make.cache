@@ -1,2 +1,0 @@
-beginner_tutorials:node_basics_p:package1
--DCATKIN_DEVEL_PREFIX=/home/jovanhermawan/Desktop/new_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/jovanhermawan/Desktop/new_workspace/install -G Unix Makefiles
