@@ -1,0 +1,39 @@
+FROM busybox
+CMD echo "Hello World !"
+
+docker build -t dockertools
+docker run dockertools
+OR
+docker run busybox echo hello world!
+docker ps -a
+
+docker run container -it busybox
+exit
+
+FROM busybox
+CMD exec /bin/bash -c "trap : TERM INT; sleep infinity & wait"
+docker build -t dockertools
+docker container run -d dockertools
+
+docker rm some_name
+
+docker images
+docker image rm busybox
+
+
+
+
+docker-compose --version
+
+FROM busybox
+CMD echo "This is busybox !"
+
+docker-compose run service-1
+docker-compose run service-2
+docker-compose up
+docker-compose down
+
+docker-compose up -d
+docker-compose run -d service-1
+docker-compose run -d service-2
+docker-compose down
