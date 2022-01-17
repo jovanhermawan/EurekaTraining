@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/hellocpp.dir/src/hello.cpp.o  -o /home/jovanhermawan/Desktop/new_workspace/devel/lib/package1/hellocpp 
