@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  service-1: 
+    build: .
+  service-2:
+    image: "hello-world"
